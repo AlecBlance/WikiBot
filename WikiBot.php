@@ -146,7 +146,7 @@ class Wikipedia extends Conversation
     public function getIntro()
     {
         $question = Question::create("Please select here ☝️")
-            ->fallback('Unable to create a new database')
+            ->fallback('Unable to get information')
             ->addButtons(
                 [
                 Button::create('stop')->value('stop12stop')
@@ -204,7 +204,7 @@ class Wikipedia extends Conversation
         $question = Question::create(
             "There are parts in this wiki\n\nDo you wanna see it?"
         )
-            ->fallback('Unable to create a new database')
+            ->fallback('Unable to get parts of this wiki')
             ->addButtons(
                 [
                 Button::create('Yes')->value('yes'),
@@ -257,7 +257,7 @@ class Wikipedia extends Conversation
     public function getContent()
     {
         $question = Question::create("Please select here ☝️")
-            ->fallback('Unable to create a new database')
+            ->fallback('Unable to get the part\'s content')
             ->addButtons(
                 [
                 Button::create('stop')->value('stop12stop')
