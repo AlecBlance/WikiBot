@@ -103,7 +103,7 @@ This is the final process.
 
  - Alec Blance 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://gist.github.com/PurpleBooth/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 ## Acknowledgements
  - This project is made possible by BotMan PHP Framework
 
