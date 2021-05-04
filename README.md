@@ -4,6 +4,8 @@ Wikibot is a Facebook Messenger Chatbot that searches and gathers information fr
 
 It aims to provide Wikipedia access to free data and mobile users.
 
+https://user-images.githubusercontent.com/17378596/116949846-f38b9000-acb5-11eb-9b2c-b89cbb3d5559.mp4
+
 ## Downloading
 Simply clone the repository
 
